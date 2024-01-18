@@ -11,7 +11,7 @@ import AstroPWA from "@vite-pwa/astro";
 
 // https://astro.build/config
 export default defineConfig({
-	site: "https://astros.zank.studio",
+	site: "https://stephan-koning.netlify.app/",
 	vite: {
 		define: {
 			__DATE__: `'${new Date().toISOString()}'`,
@@ -26,7 +26,7 @@ export default defineConfig({
 					name: "github",
 					repo: "zankhq/astros",
 					branch: "main",
-					base_url: "https://astros.zank.studio",
+					base_url: "https://stephan-koning.netlify.app",
 					auth_endpoint: "/api/auth",
 				},
 				media_folder: "public/images",
