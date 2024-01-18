@@ -23,8 +23,8 @@ export default defineConfig({
 		NetlifyCMS({
 			config: {
 				backend: {
-					name: "github",
-					repo: "zankhq/astros",
+					name: "git-gateway",
+					repo: "Stefankart/stephan",
 					branch: "main",
 					base_url: "https://stephan-koning.netlify.app",
 					auth_endpoint: "/api/auth",
